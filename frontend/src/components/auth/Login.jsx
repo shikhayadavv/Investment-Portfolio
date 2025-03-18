@@ -10,13 +10,13 @@ const Login = () => {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
 
   const handleChange = (e) => {
-    setCredentials({ ...credentials, [e.target.name]: e.target.name });
+    setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     await login(credentials);
-    navigate("/dashboard");
+    navigate("/");
   };
 
   return (

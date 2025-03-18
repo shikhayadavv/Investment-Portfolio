@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import TopBar from "../components/UI/TobBar";
 import StrategySelector from "../components/portfolio/StrategySelector";
 import PortfolioAllocation from "../components/portfolio/AllocationForm";
-import PieChartComponent from "../components/charts/PieCharts";
 import AllocationResults from "../components/portfolio/ResultDisplay";
 import HistoricalPerformance from "../components/charts/AreaCharts";
 
@@ -26,3 +25,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
