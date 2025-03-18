@@ -16,7 +16,6 @@ const AllocationResults = ({ allocation }) => {
         </p>
       </div>
 
-      
       <div className="bg-gradient-to-r from-cyan-100 to-cyan-50 p-5 rounded-lg shadow-md mb-4">
         <h3 className="text-cyan-600 font-semibold text-md">Stocks</h3>
         <p className="text-3xl font-bold text-cyan-600">${allocation.stocks}</p>

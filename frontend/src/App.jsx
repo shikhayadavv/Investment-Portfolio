@@ -14,7 +14,7 @@ function App() {
           <Route path="/register" element={<AuthRegister />} />
         </Routes>
       </Router>
-    </AuthProvider>
+    </AuthProvider> 
   );
 }
 
